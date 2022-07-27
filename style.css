@@ -1,0 +1,133 @@
+body {
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #2f3037;
+    overflow: hidden;
+}
+.topnav {
+    background-color: #4b4c52;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.topnav a {
+    padding: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.topnav a:hover {
+    background-color: #5b5c62;
+    color: white;
+}
+.topnav a.active {
+    background-color: #1c1c21;
+}
+.topnav a.login {
+    position: absolute;
+    right: 0;
+}
+.container {    
+    padding: 25px 0px 0px 10px;
+    font-size: larger;
+    color: white;
+    position: relative;
+    top: 10%;
+    left: 10%;
+}
+form {
+    border: 3px solid #4b4c52;
+    height: 300px;
+    width: 300px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    top: 10%;
+    left: 38.5%;
+    background-color: #393A41;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button {
+    background-color: #4b4c52;
+    color: white;
+    padding: 2px 5px 2px 5px;
+    margin: 10px 0px;
+    border: #393A41;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #5b5c62;
+    color: white;
+}
+input[type=text], input[type=password] {
+    margin: 8px 0px;
+    display: inline-block;
+    box-sizing: border-box;
+    position:relative;
+}
+#forgotpass {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 80px;
+    padding: 10px;
+    text-align: center;
+}
+.money {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    padding: 20px 10px 20px 15px;
+    text-align: center;
+    text-shadow: 4px 4px 8px #000000;
+}
+.money2 {
+    padding-top: 25px;
+}
+#counter{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding: 10px 10px 20px 15px;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000;;
+}
+#counter:before {
+    content: "€";
+}
+#secure {
+    width: 300px;
+    height: auto;
+    padding-top: 100px;
+}
+#welcome {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 150px;
+    padding: 50px 10px 20px 15px;
+    text-align: center;
+    text-shadow: 4px 4px 8px #000000;
+    position: relative;
+}
+#welcome2 {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    padding: 20px 10px 20px 15px;
+    text-align: center;
+    text-shadow: 4px 4px 8px #000000;
+}
+#arrow img {
+    position: absolute;
+    transform: rotate(-70deg) scaleY(-1);
+    top: 60px;
+    right: -110px;
+    z-index: -1;
+}
+#construction {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 50px;
+}
