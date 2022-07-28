@@ -1,0 +1,53 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+    overflow: hidden;
+}
+.hero-container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 360px;
+    height: 540px;
+    background-color: white;
+    border-radius: 25px;
+}
+.container img {
+    width: 325px;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto auto auto
+}
+.text1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    color: hsl(218, 44%, 22%);
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 300px;
+}
+.text2 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: hsl(220, 15%, 55%);
+    padding-top: 20px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 260px;
+}
+.attribution {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
